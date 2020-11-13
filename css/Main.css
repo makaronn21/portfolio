@@ -1,0 +1,71 @@
+*{padding: 0; margin: 0;}
+a{text-decoration: none;}
+
+header>ul.logo1{
+    left: 43%; top: 2%;
+    width: 300px;  margin: 0 auto;
+     margin-top: 1em; position: absolute;
+     animation:logo 1s ease-in Infinite Alternate;
+    -webkit-transition: .5s; 
+    transition: .5s;}
+    @keyframes logo {
+        0% {
+            top:1%;
+        }
+
+        to {
+            top:2%;
+             
+        } 
+    }
+ul.logo1:hover{ 
+    -webkit-filter: opacity(.5) drop-shadow(0 0 0 #ffa710);
+    filter: opacity(.5) drop-shadow(0 0 0 #ffa710);
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+    -webkit-transition: background 1s; 
+    transition: background 1s;}
+
+
+header>ul.logo1>li.logo{list-style: none; text-align: center; 
+    font-size: 30px; /* border: 3px solid red; */}
+header>ul.headerUl{position: absolute;
+    left: 19%; top: 11%;
+    /* background-color: aqua; */
+    width: auto;
+    height: 90px; text-align: center;
+}
+header>ul.headerUl>li{
+    margin-left: 20px; list-style: none; display: inline-block;
+    font-size: 20px; 
+    margin-top: 30px; margin-right: 30px;
+      /* position: absolute; */
+}
+li.none{color: blueviolet;  text-indent:-10000px}
+/* header>ul.headerUl>li:nth-child(4){color: crimson;} */
+
+
+article.page1Art1{position: absolute; top: 15%;
+    margin: auto;  width: 250px; float: left; margin-left: 60px; margin-right: 7em;
+    /* background-color: burlywood; */ margin-top: 16em;}
+    article.page1Art1>ul{ font-size: 20px; text-align: center;}
+    article.page1Art1>ul>li{list-style: none; margin-top: 30px; margin-bottom: 30px;}
+
+section.table>img.imgLo{position: absolute; z-index: 4; left: 20%; top: 17%; margin: auto; padding-top: 2em; float: left; margin-right: 50px;}
+section.table>img.imgLo2{position: absolute; left: 20%; top: 17%; margin: auto; padding-top: 2em; float: left; margin-right: 50px; margin-bottom: 20px;}
+section.table>div{ position: absolute; right: 5%;
+                    top: 17%; width: 30%;}
+section.table>div.longDiv{position: absolute; right: 18%;
+                            top: 17%; width: 30%;}
+section.table>div>p{
+    position: absolute;
+    /* display: inline; */  font-weight: bolder; font-size: 17px;}
+
+
+section.table>img.imgST{position: absolute; z-index: 4;left: 20%; top: 17%; margin: auto; padding-top: 8em; float: left; margin-right: 50px;}
+
+    article.page1Art2{position: absolute; top: 15%;
+        margin: auto;  width: 250px; float: left; margin-left: 60px; margin-right: 7em;
+        /* background-color: burlywood; */ margin-top: 19em;}
+        article.page1Art2>ul{ font-size: 20px; text-align: center;}
+        article.page1Art2>ul>li{list-style: none; margin-top: 30px; margin-bottom: 30px;}

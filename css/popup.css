@@ -1,0 +1,35 @@
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+  #popup-window {
+    position: fixed;
+    display: none;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 60%;
+    background: rgb(30, 32, 32, 0.3);
+    border: 1px solid #aaa;
+    border-radius: 20px;
+  }
+  .popup-trigger {
+    cursor: pointer;
+  }
+
+  .x-close {
+    font-size: 50px;
+    line-height: 1;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+
+  .POPsection{padding-top: 10%;}
+  .POPdiv{padding-top: 3%; font-size: 20px; color: rgb(255, 255, 255);}
+  .indexS{font-size: 18px;}
+  .indexN{padding-top: 5%;}
+  .indexB{padding-top: 5%;}
