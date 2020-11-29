@@ -18,7 +18,7 @@ $(document).ready(function () {
           "px) rotateY(" +
           Math.random() * 360 +
           "deg) rotateX(" +
-          Math.random() * -50 +
+          Math.random() * 50 +
           "deg) scale(" +
           s +
           "," +

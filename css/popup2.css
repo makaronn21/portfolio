@@ -1,0 +1,67 @@
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+  #popup-window {
+      z-index: 111;
+    position: fixed;
+    display: none;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    height: 40%;
+    background: rgb(30, 32, 32, 0.9);
+    border: 1px solid #aaa;
+    border-radius: 20px;
+  }
+  .OBani2>#popup-window {
+  z-index: 111;
+  position: fixed;
+  display: none;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 71%;
+  background: rgb(30, 32, 32, 0.5);
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+  .popup-trigger {
+    cursor: pointer;
+  }
+
+  .x-close {
+      color: white;
+    transform: translateY(-145%);
+    font-size: 50px;
+    line-height: 1;
+    float: right;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+
+.x-close2 {
+    color: white;
+  transform: translateY(-15%);
+  font-size: 50px;
+  line-height: 1;
+  float: right;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.POPsection{
+    transform: translateY(-45%);
+    }
+.POPsection2{
+    transform: translateY(55%);
+    }
+  .POPdiv{padding-top: 1%; font-size: 20px; color: rgb(255, 255, 255);}
+  .indexS{font-size: 18px;}
+  .indexN{padding-top: 5%;}
+  .indexB{padding-top: 5%;}

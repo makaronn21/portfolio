@@ -12,7 +12,7 @@ html, body {
     transform: translateY(-50%);
     width: 50%;
     height: 60%;
-    background: rgb(30, 32, 32, 0.3);
+    background: rgb(30, 32, 32, 0.8);
     border: 1px solid #aaa;
     border-radius: 20px;
   }

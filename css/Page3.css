@@ -62,10 +62,10 @@ body {
   
   @keyframes rotate {
     0% {
-      transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(0);
+      transform: perspective(400px) rotateZ(-20deg) rotateX(0deg) rotateY(0);
     }
     100% {
-      transform: perspective(400px) rotateZ(20deg) rotateX(-40deg) rotateY(-360deg);
+      transform: perspective(400px) rotateZ(120deg) rotateX(0deg) rotateY(0deg);
     }
   }
   .stars {
@@ -73,7 +73,7 @@ body {
     transform-style: preserve-3d;
     position: absolute;
     bottom: 0;
-    perspective-origin: 50% 100%;
+    /* perspective-origin: 50% 100%; */
     left: 50%;
     animation: rotate 90s infinite linear;
   }
@@ -85,8 +85,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    transform-origin: 0 0 -300px;
-    transform: translate3d(0, 0, -300px);
+/*     transform-origin: 0 0 -300px;
+    transform: translate3d(0, 0, -300px); */
     backface-visibility: hidden;
   }
   
