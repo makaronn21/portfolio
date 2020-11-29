@@ -13,7 +13,7 @@ html, body {
     transform: translateY(-50%);
     width: 50%;
     height: 40%;
-    background: rgb(30, 32, 32, 0.9);
+    background: rgb(30, 32, 32, 0.8);
     border: 1px solid #aaa;
     border-radius: 20px;
   }
@@ -28,7 +28,7 @@ html, body {
   transform: translateY(-50%);
   width: 50%;
   height: 71%;
-  background: rgb(30, 32, 32, 0.5);
+  background: rgb(30, 32, 32, 0.8);
   border: 1px solid #aaa;
   border-radius: 20px;
 }
