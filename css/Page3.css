@@ -54,8 +54,8 @@ ul.container li
 }
 
 body {
-    background: radial-gradient(200% 100% at bottom center, #f7f7b6, #e96f92, #75517d,#0e1629);
-    background: radial-gradient(220% 105% at top center, #0e1629 30%, #75517d 60%, #e96f92 75%, #f7f7b6);
+    background: radial-gradient(200% 100% at bottom center, #f7f7b6, #e47898, #514269,#0e1629);
+    background: radial-gradient(220% 105% at top center, #0e1629 30%, #514269 60%, #e47898 75%, #f7f7b6);
     background-attachment: fixed;
     overflow: hidden;
   }

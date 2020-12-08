@@ -1,8 +1,8 @@
 *{padding: 0; margin: 0;}
-a{text-decoration: none; color: white;font-weight: bolder;
+li>a{text-decoration: none; color: white;font-weight: bolder;
     -webkit-transition: 0.3s;
     transition: 1s;}
-a:hover{text-decoration: none;  font-weight: bolder; font-size: 25px; color: rgb(48, 92, 175);
+    li>a:hover{text-decoration: none;  font-weight: bolder; font-size: 25px; color: rgb(48, 92, 175);
     -webkit-transition: 0.1s;
     transition: 1s;}
 body{background-image: url(../BGimg/BGimg1.jpg);}

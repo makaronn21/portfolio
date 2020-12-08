@@ -53,7 +53,10 @@ article.page1Art1{z-index: 22; position: absolute; top: 15%;
     /* background-color: burlywood; */ margin-top: 16em;}
     article.page1Art1>ul{ font-size: 20px; text-align: center;}
     article.page1Art1>ul>li{list-style: none; margin-top: 30px; margin-bottom: 30px;}
-
+    @media screen and (max-width: 1800px)
+     { article.page1Art1 
+        { margin-left: 30px;} 
+    }
 section.table>a.imgLo{
     position: absolute; z-index: 4; 
     left: 20vw; top: 17%; margin: auto;
@@ -93,7 +96,9 @@ section.table>div>p{
     }
 
 
-    section.table>iframe.imgST{position: absolute; z-index: 4;left: 20%; top: 17%; margin: auto; padding-top: 8em; float: left; margin-right: 50px;}
+section.table>iframe.imgST{position: absolute; z-index: 4;left: 20%; top: 17%; margin: auto; padding-top: 8em; float: left; margin-right: 50px;}
+
+
 
 section.table>a.imgST{position: absolute; z-index: 4;left: 20%; top: 17%; margin: auto; padding-top: 8em; float: left; margin-right: 50px;}
 section.table>a .imgST:hover{
@@ -109,3 +114,22 @@ section.table>a .imgST:hover{
         /* background-color: burlywood; */ margin-top: 19em;}
         article.page1Art2>ul{ font-size: 20px; text-align: center;}
         article.page1Art2>ul>li{list-style: none; margin-top: 30px; margin-bottom: 30px;}
+        
+.button-box{
+    border-radius: 5px 5px;
+}
+.button-box:hover
+{
+    box-shadow: 2px gray;
+    /* transform: translateY(4px); */
+        }
+button{margin-left: 1vw; margin-top: 1vh;}
+.button{
+    border-radius: 3px 3px;
+    background-color: black; 
+    width: 7vw; 
+    height: 20px;}
+.button_a{
+    text-align: center;
+    font-size: 0.7vw;
+    color: white;}
